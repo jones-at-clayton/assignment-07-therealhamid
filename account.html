@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+	<head> 
+		<meta charset="UTF-8" /> 
+        <meta name="author" content="Hamid Mume"/>
+         <meta name=description content="account page"/>
+		<title>Membership</title> 
+		<style> 
+		<!--
+		body	{background-color: gray; }
+		h1       {text-align: center; color: blue;}
+		legend	{font-style: italic;font-size:18pt;
+			color: blue;}
+		u       {color: black;}
+		fieldset  {border-color: black;}
+		-->
+		</style> 
+	</head> 
+	 
+	<body> 
+		<h1><u>BECOME A MEMBER </u></h1>
+		<form action="mailto:someaddress@emailaddress.com?subject=memberApp" method="post"> 
+			<fieldset><legend>Applicant Information</legend> 
+				<p>Name:<br /> 
+					<input name="applicantName" type="text" size="46"/></p> 
+				<p>Address:<br /> 
+					<textarea name="applicantAddress" rows="6" cols="40"></textarea></p> 
+				<p>Email Address:<br /> 
+					<input name="applicantEmail" type="text" size="46" /></p> 
+				<p> Phone number: <br />
+					<input name="applicantPhone" type="text" size="40" /></p>
+			</fieldset> 
+		 
+		<fieldset><legend>Sport Setting</legend> 
+			<p>where would you like to play: 
+			<input name="choose sport setting" type="radio" value="Indoor" /> Indoor
+			<input name="choose sport setting" type="radio" value="Outdoor" /> Outdoor
+			</p> 
+		</fieldset> 
+		 
+		<fieldset><legend>Equipments</legend> 
+
+			<p>basketball (check all that you will like to purchase): 
+				<input name="equipment" type="checkbox" value="basketball shoes" />shoes &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="mouth guard" />mouth guard &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="hoop" />hoop &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="score board" />Score board &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="ball" />ball &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="whistle" />whistle &nbsp;&nbsp;&nbsp; 
+				<input name="equipment" type="checkbox" value="headband" />headband 
+			</p> 
+		</fieldset> 
+		<p><input type="submit" value="Submit Form" /> 
+		<input type="reset" value="Reset Form" />
+		</p> 
+		</form> 
+	 
+	</body> 
+ 
+</html> 
